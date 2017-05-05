@@ -1,9 +1,40 @@
-<!DOCTYPE HTML> 
+DOCTYPE HTML> 
 <html>
   <head>
     <title>pokemon</title>
   </head>
   <body>
-    <p>juego pokemon</p>
-  </body>
-</html>
+
+
+<html>
+<body background="imagen/fondo juego.jpg">
+
+
+
+    <h1>JUEGO POKEMON</h1>
+    <img src="imagen/pick.png" alt="pokemon" width="400" align="right">
+    <!--botones para seleccionar los jugadores de la pelea -->
+    <section>
+        <select id="poke1">
+            <option value="">Pikachu</option>
+            <option value="">Charmander</option>
+            <option value="">Poke</option>
+            <option value="">Rulo</option>
+        </select>
+
+        <!-- Pokemon a atacar -->
+        <select id="poke2">
+            <option value="">Pikachu</option>
+            <option value="">Charmander</option>
+            <option value="">Poke</option>
+            <option value="">Rulo</option>
+        </select>
+
+
+        <h2><button onclick="peleaPokemon();">PELEAR</button></h2>
+	<p id="lucha"></p>
+    </section>
+	
+
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
